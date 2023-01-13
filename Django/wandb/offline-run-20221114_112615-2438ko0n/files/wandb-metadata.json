@@ -1,0 +1,36 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-11-14T10:26:15.534464",
+    "startedAt": "2022-11-14T10:26:15.451994",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/annebeau-reder/Desktop/Django/dossier sans titre/testGPT.py",
+    "codePath": "dossier sans titre/testGPT.py",
+    "host": "MacBook-Pro-de-anne.local",
+    "username": "annebeau-reder",
+    "executable": "/Users/annebeau-reder/.local/share/virtualenvs/annebeau-reder-oAtcXoSI/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 1100,
+        "min": 1100,
+        "max": 1100
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1100,
+            "min": 1100,
+            "max": 1100
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 21.753910064697266
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

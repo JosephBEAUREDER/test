@@ -1,0 +1,115 @@
+2022-11-14 11:26:15,519 INFO    StreamThr :9411 [internal.py:wandb_internal():88] W&B internal server running at pid: 9411, started at: 2022-11-14 11:26:15.515265
+2022-11-14 11:26:15,524 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: status
+2022-11-14 11:26:15,527 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: status
+2022-11-14 11:26:15,529 INFO    WriterThread:9411 [datastore.py:open_for_write():75] open: /Users/annebeau-reder/Desktop/Django/wandb/offline-run-20221114_112615-2438ko0n/run-2438ko0n.wandb
+2022-11-14 11:26:15,530 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: run_start
+2022-11-14 11:26:15,533 DEBUG   HandlerThread:9411 [system_info.py:__init__():31] System info init
+2022-11-14 11:26:15,533 DEBUG   HandlerThread:9411 [system_info.py:__init__():46] System info init done
+2022-11-14 11:26:15,533 INFO    HandlerThread:9411 [system_monitor.py:start():150] Starting system monitor
+2022-11-14 11:26:15,533 INFO    SystemMonitor:9411 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-14 11:26:15,534 INFO    HandlerThread:9411 [system_monitor.py:probe():168] Collecting system info
+2022-11-14 11:26:15,534 DEBUG   HandlerThread:9411 [system_info.py:probe():195] Probing system
+2022-11-14 11:26:15,534 DEBUG   HandlerThread:9411 [system_info.py:probe():241] Probing system done
+2022-11-14 11:26:15,534 DEBUG   HandlerThread:9411 [system_monitor.py:probe():177] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.8', 'heartbeatAt': '2022-11-14T10:26:15.534464', 'startedAt': '2022-11-14T10:26:15.451994', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/annebeau-reder/Desktop/Django/dossier sans titre/testGPT.py', 'codePath': 'dossier sans titre/testGPT.py', 'host': 'MacBook-Pro-de-anne.local', 'username': 'annebeau-reder', 'executable': '/Users/annebeau-reder/.local/share/virtualenvs/annebeau-reder-oAtcXoSI/bin/python', 'cpu_count': 2, 'cpu_count_logical': 2, 'cpu_freq': {'current': 1100, 'min': 1100, 'max': 1100}, 'cpu_freq_per_core': [{'current': 1100, 'min': 1100, 'max': 1100}], 'disk': {'total': 233.46913528442383, 'used': 21.753910064697266}, 'memory': {'total': 8.0}}
+2022-11-14 11:26:15,534 INFO    HandlerThread:9411 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-14 11:26:15,534 INFO    HandlerThread:9411 [system_monitor.py:probe():181] Publishing system info
+2022-11-14 11:26:15,534 DEBUG   HandlerThread:9411 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-14 11:26:15,535 DEBUG   HandlerThread:9411 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-14 11:26:15,536 INFO    HandlerThread:9411 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-14 11:26:15,536 INFO    SystemMonitor:9411 [interfaces.py:start():168] Started cpu
+2022-11-14 11:26:15,537 INFO    SystemMonitor:9411 [interfaces.py:start():168] Started disk
+2022-11-14 11:26:15,538 INFO    SystemMonitor:9411 [interfaces.py:start():168] Started memory
+2022-11-14 11:26:15,539 INFO    SystemMonitor:9411 [interfaces.py:start():168] Started network
+2022-11-14 11:26:15,561 DEBUG   SenderThread:9411 [sender.py:send():303] send: exit
+2022-11-14 11:26:15,562 INFO    SenderThread:9411 [sender.py:send_exit():442] handling exit code: 1
+2022-11-14 11:26:15,562 INFO    SenderThread:9411 [sender.py:send_exit():444] handling runtime: 0
+2022-11-14 11:26:15,562 INFO    SenderThread:9411 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-14 11:26:15,562 INFO    SenderThread:9411 [sender.py:send_exit():450] send defer
+2022-11-14 11:26:15,574 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,575 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-14 11:26:15,575 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,575 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-14 11:26:15,575 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 1
+2022-11-14 11:26:15,576 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,576 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-14 11:26:15,576 INFO    HandlerThread:9411 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-14 11:26:15,581 DEBUG   SystemMonitor:9411 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-14 11:26:15,581 DEBUG   SystemMonitor:9411 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-14 11:26:15,582 DEBUG   SystemMonitor:9411 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-14 11:26:15,583 INFO    HandlerThread:9411 [interfaces.py:finish():173] Joined cpu
+2022-11-14 11:26:15,583 INFO    HandlerThread:9411 [interfaces.py:finish():173] Joined disk
+2022-11-14 11:26:15,583 INFO    HandlerThread:9411 [interfaces.py:finish():173] Joined memory
+2022-11-14 11:26:15,583 INFO    HandlerThread:9411 [interfaces.py:finish():173] Joined network
+2022-11-14 11:26:15,584 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,584 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-14 11:26:15,585 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 2
+2022-11-14 11:26:15,585 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,585 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-14 11:26:15,585 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,585 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-14 11:26:15,585 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 3
+2022-11-14 11:26:15,585 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,585 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-14 11:26:15,586 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,586 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-14 11:26:15,586 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 4
+2022-11-14 11:26:15,588 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,588 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-14 11:26:15,589 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,589 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-14 11:26:15,589 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 5
+2022-11-14 11:26:15,589 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,589 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-14 11:26:15,589 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,589 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-14 11:26:15,590 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 6
+2022-11-14 11:26:15,590 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,590 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-14 11:26:15,590 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,590 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-14 11:26:15,590 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 7
+2022-11-14 11:26:15,590 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,590 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-14 11:26:15,590 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,590 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-14 11:26:15,590 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 8
+2022-11-14 11:26:15,591 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,591 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-14 11:26:15,591 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,591 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-14 11:26:15,591 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 9
+2022-11-14 11:26:15,591 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,591 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-14 11:26:15,591 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,591 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-14 11:26:15,591 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 10
+2022-11-14 11:26:15,592 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,592 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-14 11:26:15,592 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,592 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-14 11:26:15,592 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 11
+2022-11-14 11:26:15,593 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,593 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-14 11:26:15,594 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,594 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-14 11:26:15,594 INFO    SenderThread:9411 [sender.py:transition_state():463] send defer: 12
+2022-11-14 11:26:15,595 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 11:26:15,595 INFO    HandlerThread:9411 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-14 11:26:15,595 DEBUG   SenderThread:9411 [sender.py:send():303] send: final
+2022-11-14 11:26:15,595 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: defer
+2022-11-14 11:26:15,595 INFO    SenderThread:9411 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-14 11:26:15,596 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-14 11:26:15,598 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-14 11:26:15,599 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: poll_exit
+2022-11-14 11:26:15,600 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: poll_exit
+2022-11-14 11:26:15,601 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: server_info
+2022-11-14 11:26:15,601 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-14 11:26:15,601 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-14 11:26:15,601 DEBUG   SenderThread:9411 [sender.py:send_request():317] send_request: server_info
+2022-11-14 11:26:15,602 INFO    MainThread:9411 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-14 11:26:15,602 INFO    MainThread:9411 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-14 11:26:15,603 DEBUG   HandlerThread:9411 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-14 11:26:15,603 INFO    HandlerThread:9411 [handler.py:finish():814] shutting down handler
+2022-11-14 11:26:16,598 INFO    WriterThread:9411 [datastore.py:close():279] close: /Users/annebeau-reder/Desktop/Django/wandb/offline-run-20221114_112615-2438ko0n/run-2438ko0n.wandb
+2022-11-14 11:26:16,604 INFO    SenderThread:9411 [sender.py:finish():1331] shutting down sender
+2022-11-14 11:26:17,550 INFO    MainThread:9411 [internal.py:handle_exit():78] Internal process exited

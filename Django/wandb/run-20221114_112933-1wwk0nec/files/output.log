@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/annebeau-reder/Desktop/Django/dossier sans titre/testGPT.py", line 13, in <module>
+    response = openai.Completion.create(
+  File "/Users/annebeau-reder/.local/share/virtualenvs/annebeau-reder-oAtcXoSI/lib/python3.8/site-packages/openai/api_resources/completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/annebeau-reder/.local/share/virtualenvs/annebeau-reder-oAtcXoSI/lib/python3.8/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 107, in create
+    requestor = api_requestor.APIRequestor(
+  File "/Users/annebeau-reder/.local/share/virtualenvs/annebeau-reder-oAtcXoSI/lib/python3.8/site-packages/openai/api_requestor.py", line 85, in __init__
+    self.api_key = key or util.default_api_key()
+  File "/Users/annebeau-reder/.local/share/virtualenvs/annebeau-reder-oAtcXoSI/lib/python3.8/site-packages/openai/util.py", line 186, in default_api_key
+    raise openai.error.AuthenticationError(
+openai.error.AuthenticationError: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://onboard.openai.com for details, or email support@openai.com if you have any questions.

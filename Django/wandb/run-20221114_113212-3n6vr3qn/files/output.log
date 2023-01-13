@@ -1,0 +1,19 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": "\n\nPet Palace"
+    }
+  ],
+  "created": 1668421934,
+  "id": "cmpl-6CR38O5cU5h6emB0wEHYgFrrxqorM",
+  "model": "text-davinci-002",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 4,
+    "prompt_tokens": 8,
+    "total_tokens": 12
+  }
+}

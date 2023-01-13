@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{%load static%}
+
+
+        {% block content %}
+        <h1>Bienvenue !</h1>
+
+            
+                <button type="button" id="generate" onclick="sendText()"> Génerer une phrase !</button>
+        
+                <div id="outText"></div>
+
+                Ici la liste du vocabulairee
+                <textarea id="listvoca"></textarea>
+
+                <br>
+                <br>
+
+                Ici la réponse en arabe
+                <textarea id="resp"> </textarea>
+
+                <br>
+                <br>
+
+                Ici la réponse en anglais
+                <textarea id="engrep"> </textarea>
+
+                <button onclick="showElement()">
+                    Show Element
+                </button>
+                
+                <br>
+                <br>
+
+                <button onclick="playAudio()">test audio!</button>
+
+                <audio id='myaudio'  preload= 'auto' controls  type="audio/mpeg"></audio>
+
+                <button type="button" id='playfile' value = 'Play' onclick=play()>Play</button>
+
+
+                <br>
+                <br>
+                <br>
+                
+                <audio controls autoplay>
+                    
+                    <source src="{% static 'welcome2.mp3' %}" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+
+
+                <script type="text/javascript">
+                    textarea = document.querySelector("#listvoca");
+                    textarea.addEventListener('input', autoResize, false);
+                  
+                    function autoResize() {
+                        this.style.height = 'auto';
+                        this.style.height = this.scrollHeight + 'px';
+                    }
+
+                    textarea1 = document.querySelector("#resp");
+                    textarea1.addEventListener('input', autoResize, false);
+                  
+                    function autoResize() {
+                        this.style.height = 'auto';
+                        this.style.height = this.scrollHeight + 'px';
+                    }
+
+                    textarea2 = document.querySelector("#engrep");
+                    textarea2.addEventListener('input', autoResize, false);
+                  
+                    function autoResize() {
+                        this.style.height = 'auto';
+                        this.style.height = this.scrollHeight + 'px';
+                    }
+                </script>
+
+        {% endblock %}
+
+
+
+        {% block javascript %}
+        <script src="{% static 'home.js' %}"></script>
+        {% endblock %}
+        
